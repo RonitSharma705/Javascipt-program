@@ -1,0 +1,9 @@
+// Check even and odd number
+
+var num = prompt("Enter a number : ");
+if(num%2 == 0){
+    console.log(num,"is a Even nomber")
+}
+else{
+    console.log(num,"is a Odd nomber")
+}
