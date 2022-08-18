@@ -1,0 +1,7 @@
+var num = prompt("Enter a number");
+for(var a = 1; a<=num; a++){
+    if(num%a == 0){
+        console.log(a)
+    }
+}
+console.log("This is Foctor of",num);
