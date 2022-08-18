@@ -1,0 +1,4 @@
+var string = prompt("Enter any world : ");
+const reg = /[aeiou]/gi;
+var count = string.match(reg);
+console.log(count);
