@@ -1,5 +1,5 @@
-// var num1 = prompt("Enter first number : ");
-// var num3 = prompt("Enter second number : ");
-// var num2 = prompt("Enter third number : ");
-// var bigest = Math.max(num1,num2,num3);
-// console.log("This is the Bigest number of ",num1,num2,num3," =",bigest);
+var num1 = prompt("Enter first number : ");
+var num3 = prompt("Enter second number : "); 
+var num2 = prompt("Enter third number : ");
+var bigest = Math.max(num1,num2,num3);
+console.log("This is the Bigest number of ",num1,num2,num3," =",bigest);
