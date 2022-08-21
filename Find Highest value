@@ -1,3 +1,5 @@
+// Find the highest value 
+
 var num1 = prompt("Enter first number : ");
 var num3 = prompt("Enter second number : "); 
 var num2 = prompt("Enter third number : ");
