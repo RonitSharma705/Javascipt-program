@@ -1,4 +1,4 @@
-// Sum of two numbers
+// Addition of two numbers
 
 let a = prompt("Enter First number :");
 let b = prompt("Enter Second number :");
