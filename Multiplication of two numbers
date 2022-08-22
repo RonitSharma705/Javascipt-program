@@ -1,0 +1,6 @@
+Multiplication of two numbers
+
+let a = prompt("Enter First number :");
+let b = prompt("Enter Second number :");
+var c = parseInt(a) * parseInt(b);
+console.log("The Multiplication of",a,"and",b,"is : ",c);
