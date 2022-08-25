@@ -1,0 +1,14 @@
+// Find LCM of two numbers
+
+const num1 = prompt('Enter a first positive integer: ');
+const num2 = prompt('Enter a second positive integer: ');
+
+let a = (num1 > num2) ? num1 : num2;
+
+while (true) {
+    if (a % num1 == 0 && a % num2 == 0) {
+        console.log(`The LCM of ${num1} and ${num2} is ${a}`);
+        break;
+    }
+    a++;
+}
