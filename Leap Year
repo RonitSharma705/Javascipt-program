@@ -1,0 +1,10 @@
+    a=prompt("Enter a Number")
+    if(a%4==0){
+        document.getElementById("head").innerHTML='Leap Year'
+    }
+    else if(a%400==0){
+        document.getElementById("head").innerHTML='Leap Year'
+    }
+    else if(a%100!=0){
+        document.getElementById("head").innerHTML='Not Leap Year'
+    }
