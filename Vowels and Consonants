@@ -1,0 +1,10 @@
+    a=prompt("Enter a Alphabet ")
+    if(a== "a" || a=="e" || a=="i" || a=="o" || a=="u"){
+        document.getElementById("head").innerHTML='Vowels'
+    }
+    else if(a== "A" || a=="E" || a=="I" || a=="O" || a=="U"){
+        document.getElementById("head").innerHTML='Vowels'
+    }
+    else{
+        document.getElementById("head").innerHTML='Consonants'
+    }
