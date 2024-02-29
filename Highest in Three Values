@@ -1,0 +1,15 @@
+   a=prompt("Enter First Number ")
+    a=parseInt(a)
+    b=prompt("Enter Second Number ")
+    b=parseInt(b)
+    c=prompt("Enter Third Number ")
+    c=parseInt(c)
+    if(a>b && a>c){
+    document.getElementById("head").innerHTML='First Is Max'
+    }
+    else if(b>a && b>c){
+    document.getElementById("head").innerHTML='Second Is Max'
+    }
+    else{
+    document.getElementById("head").innerHTML='Third Is Max'
+    }
