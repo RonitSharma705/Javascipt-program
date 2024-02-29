@@ -1,0 +1,11 @@
+   num=parseInt(prompt("Enter a Number "))
+   year=parseInt(num/365)
+   week=parseInt(num%365)/7
+   days=parseInt(num%365)%7
+
+   document.getElementById("head").innerHTML=("Years = ",year)
+   console.log("Years = ",year)
+   document.getElementById("head").innerHTML=("Weeks =", week)
+   console.log("Weeks =", week)
+   document.getElementById("head").innerHTML=("Days =", days)
+   console.log("Days =", days)
