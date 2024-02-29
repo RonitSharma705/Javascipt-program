@@ -1,0 +1,11 @@
+    ang1=parseInt(prompt("Enter First Angle"))
+    ang2=parseInt(prompt("Enter Second Angle"))
+    ang3=parseInt(prompt("Enter Third Angle"))
+    if(ang1+ang2+ang3==180){
+        document.getElementById("head").innerHTML='Its a Triangle'
+        console.log('Triangke')
+    }
+    else{
+        document.getElementById("head").innerHTML='Not Triangle'
+        console.log('Not Triangke')
+    }
