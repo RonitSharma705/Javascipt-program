@@ -1,0 +1,12 @@
+    ang1=parseInt(prompt("Enter First Angle"))
+    ang2=parseInt(prompt("Enter Second Angle"))
+    ang3=parseInt(prompt("Enter Third Angle"))
+    if(ang1+ang2+ang3==180 && ang1==ang2 && ang2==ang3 && ang3==ang1){
+        document.getElementById("head").innerHTML='Equilateral'
+    }
+    else if(ang1+ang2+ang3==180 &&  ang1==ang2 || ang2==ang3 || ang3==ang1 && ang2!=ang3 && ang1!=ang3 || ang1!=ang2 &&  ang3!=ang2 || ang2!=ang1 && ang3!=ang1){
+        document.getElementById("head").innerHTML='Isosceles'
+    }
+    else if(ang1+ang2+ang3==180 && ang1!=ang2 && ang2!=ang3 && ang3!=ang1)[
+        document.getElementById("head").innerHTML=' Scalene'
+    ]
