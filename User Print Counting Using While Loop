@@ -1,0 +1,7 @@
+let a=parseInt(prompt("enter a Number"))
+let i=1
+while(i<=10)
+{
+   console.log(i*a)
+   i++
+}
