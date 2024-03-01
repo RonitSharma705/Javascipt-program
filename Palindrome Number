@@ -1,0 +1,14 @@
+while(num>0)
+{
+   r=num%10
+   rev=rev*10+r
+   num=Math.floor(num/10)
+}
+// document.write(rev)
+if(c==rev)
+{
+   document.write("Palindrome")
+}
+else{
+   document.write("Not Plaindrome")
+}
