@@ -1,0 +1,14 @@
+var rem;
+var sum=0;
+var num=153;
+var arm=num
+for(;num>0;num=Math.floor(num/10)){
+   rem=num%10
+   sum=sum+rem*rem*rem
+}
+if(arm==sum){
+   console.log("armstrong ")
+}
+else{
+   console.log("not armstrong ")
+}
