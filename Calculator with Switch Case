@@ -1,0 +1,20 @@
+a=parseInt(prompt("Enter a Number : "))
+sign=(prompt("Enter a Sign : "))
+b=parseInt(prompt("Enter a Number : "))
+switch(sign){
+   case "+":
+      document.getElementById("head").innerHTML=a+b
+      break;
+   case "-":
+      document.getElementById("head").innerHTML=a-b
+      break;
+   case "*":
+      document.getElementById("head").innerHTML=a*b
+      break;
+   case "/":
+      document.getElementById("head").innerHTML=a/b
+      break;
+   default:
+      document.getElementById("head").innerHTML=("Try Again")
+      break;
+}
