@@ -1,0 +1,18 @@
+alpha=(prompt("Enter a Alphabet : "))
+switch(alpha){
+   case "a":
+   case "e":
+   case "i":
+   case "o":
+   case "u":
+   case "A":
+   case "E":
+   case "I":
+   case "O":
+   case "U":
+      document.getElementById("head").innerHTML="Vowel"
+      break;
+   default:
+      document.getElementById("head").innerHTML=("Consonant")
+      break;
+}
